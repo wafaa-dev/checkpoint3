@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  padding: 10px 16px;
+  background: white;
+}
+.content {
+  padding: 16px;
+}
+body {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.intro h1 {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  color: rgb(83, 189, 154);
+}
+.container {
+  display: flex;
+}
+.contenue {
+  display: inline grid;
+}
+.bloc1 {
+  display: flex;
+}
+.bloc1 {
+  flex-direction: column;
+}
+.bloc1 {
+  float: left;
+  width: 40%;
+  background-color: rgb(40, 207, 166);
+  padding: 20px;
+  margin: 10px;
+}
+.contenue1 {
+  display: grid;
+}
+.titre1 {
+  display: flex;
+}
+.titre1 {
+  flex-direction: column;
+}
+.titre1 h4 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titre1 p {
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.photo1 {
+  height: 55mm;
+  width: 65mm;
+  padding-top: 50px;
+}
+.bloc2 {
+  display: flex;
+}
+.bloc2 {
+  flex-direction: column;
+}
+.bloc2 {
+  float: right;
+  width: 40%;
+  background-color: rgb(48, 100, 197);
+  padding: 20px;
+  margin: 10px;
+}
+.contenue2 {
+  display: inline grid;
+}
+.titre2 {
+  display: flex;
+}
+.titre2 {
+  flex-direction: column;
+}
+.titre2 h4 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titre2 p {
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.photo2 {
+  height: 55mm;
+  width: 65mm;
+  padding-top: 50px;
+  bottom: 0;
+  right: 0;
+}
+a {
+  text-decoration: none;
+  color: lightgray;
+}
+a:hover {
+  color: rgb(83, 189, 154);
+}
+a:active {
+  color: aquamarine;
+}
+.clr {
+  clear: both;
+}
+.group {
+  background-color: rgb(163, 236, 230);
+  height: 150mm;
+}
+.navbar {
+  border-bottom: rgb(156, 156, 154);
+}
+.navigation {
+  float: right;
+}
+.logonav {
+  width: 25%;
+}
+.location {
+  display: flex;
+}
+.location {
+  flex-direction: column;
+}
+.location p {
+  color: rgb(40, 207, 166);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.facts h2 {
+  color: rgb(40, 207, 166);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#side {
+  float: left;
+}
+.boxa {
+  align-self: flex-start;
+}
+.boxa p {
+  color: grey;
+  font-family: helvetica;
+  line-height: 200%;
+}
+.boxb {
+  align-self: flex-end;
+}
+.boxb p {
+  color: grey;
+  font-family: helvetica;
+  line-height: 200%;
+}
+.team {
+  display: flex;
+}
+.team {
+  flex-direction: column;
+}
+.team h2 {
+  color: rgb(40, 207, 166);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 200%;
+}
+.team h2 {
+  align-self: center;
+}
+.team h2 {
+  color: rgb(40, 207, 166);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 200%;
+}
+.team p {
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 200%;
+}
+.team p {
+  align-self: center;
+}
+.countries {
+  display: inline-grid;
+}
+.text {
+  display: flex;
+}
+.button {
+  background-color: blue;
+}
+#footer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+  font-weight: 50;
+}
